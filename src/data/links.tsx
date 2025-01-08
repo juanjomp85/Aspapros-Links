@@ -9,8 +9,24 @@ import {
   Code,
   Mail,
   Hash,
+  Gamepad,
   Gamepad2,
-  Coffee
+  Coffee,
+  Trophy,
+  Dribbble,
+  MessageCircleMore,
+  Facebook,
+  Puzzle,
+  ToyBrick,
+  Tv,
+  Rocket,
+  NotebookTabs,
+  CalendarDays,
+  Brush,
+  PackageOpen,
+  Map,
+  Palette,
+  Microscope
 } from 'lucide-react';
 import { QuickLink } from '@/types';
 
@@ -27,7 +43,7 @@ export const quickLinks: QuickLink[] = [
     title: "WhatsApp Web",
     description: "Comunicación sencilla desde tu navegador",
     url: "https://web.whatsapp.com",
-    icon: <Keyboard className="h-6 w-6" />, 
+    icon: <MessageCircleMore className="h-6 w-6" />, 
     category: "Social Media",
     color: "from-green-500 to-green-600"
   },
@@ -35,7 +51,7 @@ export const quickLinks: QuickLink[] = [
     title: "Facebook",
     description: "Conéctate con amigos y familia",
     url: "https://facebook.com",
-    icon: <BookOpen className="h-6 w-6" />, 
+    icon: <Facebook className="h-6 w-6" />, 
     category: "Social Media",
     color: "from-blue-500 to-blue-600"
   },
@@ -75,7 +91,7 @@ export const quickLinks: QuickLink[] = [
     title: "Atlas GIS",
     description: "Explora mapas interactivos",
     url: "https://www.arcgis.com/apps/instant/atlas/index.html?appid=0cd1cdee853c413a84bfe4b9a6931f0d",
-    icon: <Brain className="h-6 w-6" />, 
+    icon: <Map className="h-6 w-6" />, 
     category: "Aprendizaje",
     color: "from-indigo-500 to-indigo-600"
   },
@@ -83,7 +99,7 @@ export const quickLinks: QuickLink[] = [
     title: "NASA Space Place",
     description: "Aprende sobre el espacio de forma interactiva",
     url: "https://spaceplace.nasa.gov/",
-    icon: <Brain className="h-6 w-6" />, 
+    icon: <Rocket className="h-6 w-6" />, 
     category: "Aprendizaje",
     color: "from-gray-500 to-gray-600"
   },
@@ -123,7 +139,7 @@ export const quickLinks: QuickLink[] = [
     title: "Vedoque Sudoku",
     description: "Sudokus interactivos educativos",
     url: "https://www.vedoque.com/juegos/sudoku/",
-    icon: <Gamepad2 className="h-6 w-6" />, 
+    icon: <Brain className="h-6 w-6" />, 
     category: "Entretenimiento",
     color: "from-green-500 to-green-600"
   },
@@ -131,7 +147,7 @@ export const quickLinks: QuickLink[] = [
     title: "Sesame Street Games",
     description: "Juegos educativos y accesibles",
     url: "https://www.sesamestreet.org/games",
-    icon: <Gamepad2 className="h-6 w-6" />, 
+    icon: <Tv className="h-6 w-6" />, 
     category: "Entretenimiento",
     color: "from-gray-500 to-gray-600"
   },
@@ -139,7 +155,7 @@ export const quickLinks: QuickLink[] = [
     title: "Jigsaw Planet",
     description: "Puzzles interactivos",
     url: "https://www.jigsawplanet.com/",
-    icon: <Gamepad2 className="h-6 w-6" />, 
+    icon: <Puzzle className="h-6 w-6" />, 
     category: "Entretenimiento",
     color: "from-blue-500 to-blue-600"
   },
@@ -147,7 +163,7 @@ export const quickLinks: QuickLink[] = [
     title: "Rebrickable",
     description: "Instrucciones y modelos de LEGO",
     url: "https://rebrickable.com/",
-    icon: <Gamepad2 className="h-6 w-6" />, 
+    icon: <ToyBrick className="h-6 w-6" />, 
     category: "Entretenimiento",
     color: "from-red-400 to-red-500"
   },
@@ -155,7 +171,7 @@ export const quickLinks: QuickLink[] = [
     title: "LaCartoons",
     description: "Series y caricaturas online",
     url: "https://www.lacartoons.com/",
-    icon: <Gamepad2 className="h-6 w-6" />, 
+    icon: <Tv className="h-6 w-6" />, 
     category: "Entretenimiento",
     color: "from-yellow-500 to-yellow-600"
   },
@@ -163,7 +179,7 @@ export const quickLinks: QuickLink[] = [
     title: "Play Classic Games",
     description: "Juega clásicos en línea",
     url: "https://playclassic.games/games/",
-    icon: <Gamepad2 className="h-6 w-6" />, 
+    icon: <Gamepad className="h-6 w-6" />, 
     category: "Entretenimiento",
     color: "from-gray-700 to-gray-800"
   },
@@ -171,7 +187,7 @@ export const quickLinks: QuickLink[] = [
     title: "LaLiga",
     description: "Calendario de partidos de LaLiga",
     url: "https://www.laliga.com/laliga-easports/calendario",
-    icon: <Gamepad2 className="h-6 w-6" />, 
+    icon: <Trophy className="h-6 w-6" />, 
     category: "Deportes",
     color: "from-red-500 to-red-600"
   },
@@ -179,7 +195,7 @@ export const quickLinks: QuickLink[] = [
     title: "ACB",
     description: "Calendario de la liga de baloncesto",
     url: "https://www.acb.com/calendario/",
-    icon: <Gamepad2 className="h-6 w-6" />, 
+    icon: <Dribbble className="h-6 w-6" />, 
     category: "Deportes",
     color: "from-blue-500 to-blue-600"
   },
@@ -187,7 +203,7 @@ export const quickLinks: QuickLink[] = [
     title: "UEFA Champions League",
     description: "Calendario de partidos",
     url: "https://www.uefa.com/uefachampionsleague/",
-    icon: <Gamepad2 className="h-6 w-6" />, 
+    icon: <Trophy className="h-6 w-6" />, 
     category: "Deportes",
     color: "from-indigo-500 to-indigo-600"
   },
@@ -211,7 +227,7 @@ export const quickLinks: QuickLink[] = [
     title: "Google Arts & Culture",
     description: "Explora cultura y arte mundial",
     url: "https://artsandculture.google.com/",
-    icon: <BookOpen className="h-6 w-6" />, 
+    icon: <Palette className="h-6 w-6" />, 
     category: "Conocimiento",
     color: "from-pink-500 to-purple-600"
   },
@@ -219,7 +235,7 @@ export const quickLinks: QuickLink[] = [
     title: "Europeana",
     description: "Colección cultural europea",
     url: "https://www.europeana.eu/es",
-    icon: <BookOpen className="h-6 w-6" />, 
+    icon: <Microscope className="h-6 w-6" />, 
     category: "Conocimiento",
     color: "from-gray-700 to-gray-800"
   },
@@ -227,7 +243,7 @@ export const quickLinks: QuickLink[] = [
     title: "NASA Image Library",
     description: "Imágenes y recursos espaciales",
     url: "https://images.nasa.gov/",
-    icon: <BookOpen className="h-6 w-6" />, 
+    icon: <Rocket className="h-6 w-6" />, 
     category: "Conocimiento",
     color: "from-gray-400 to-gray-500"
   },
@@ -235,7 +251,7 @@ export const quickLinks: QuickLink[] = [
     title: "Google Keep",
     description: "Notas rápidas y organizadas",
     url: "https://keep.google.com/",
-    icon: <Mail className="h-6 w-6" />, 
+    icon: <NotebookTabs className="h-6 w-6" />, 
     category: "Productividad",
     color: "from-yellow-500 to-yellow-600"
   },
@@ -243,7 +259,7 @@ export const quickLinks: QuickLink[] = [
     title: "Google Calendar",
     description: "Planifica tus días",
     url: "https://calendar.google.com/",
-    icon: <Mail className="h-6 w-6" />, 
+    icon: <CalendarDays className="h-6 w-6" />, 
     category: "Productividad",
     color: "from-blue-500 to-blue-600"
   },
@@ -251,7 +267,7 @@ export const quickLinks: QuickLink[] = [
     title: "Pixlr",
     description: "Editor de imágenes online",
     url: "https://pixlr.com/es/editor/",
-    icon: <Mail className="h-6 w-6" />, 
+    icon: <Brush className="h-6 w-6" />, 
     category: "Productividad",
     color: "from-green-500 to-green-600"
   },
@@ -259,7 +275,7 @@ export const quickLinks: QuickLink[] = [
     title: "Sumo Paint",
     description: "Pintura y edición gráfica",
     url: "https://paint.sumo.app/?lang=es",
-    icon: <Mail className="h-6 w-6" />, 
+    icon: <Brush className="h-6 w-6" />, 
     category: "Productividad",
     color: "from-red-400 to-red-500"
   },
@@ -267,9 +283,17 @@ export const quickLinks: QuickLink[] = [
     title: "Sumo Apps",
     description: "Herramientas creativas online",
     url: "https://sumo.app/es",
-    icon: <Mail className="h-6 w-6" />, 
+    icon: <PackageOpen className="h-6 w-6" />, 
     category: "Productividad",
     color: "from-indigo-500 to-indigo-600"
+  },
+  {
+    title: "Sumo Pixel",
+    description: "Herramientas creativas online",
+    url: "https://pixel.sumo.app/?lang=es",
+    icon: <Brush className="h-6 w-6" />, 
+    category: "Productividad",
+    color: "from-gray-400 to-gray-500"
   }
 ];
 
@@ -277,7 +301,7 @@ export const categories = [
   { name: "Social Media", icon: <Hash className="h-5 w-5" /> },
   { name: "Aprendizaje", icon: <GraduationCap className="h-5 w-5" /> },
   { name: "Entretenimiento", icon: <Gamepad2 className="h-5 w-5" /> },
-  { name: "Deportes", icon: <Gamepad2 className="h-5 w-5" /> },
+  { name: "Deportes", icon: <Trophy className="h-5 w-5" /> },
   { name: "Conocimiento", icon: <Brain className="h-5 w-5" /> },
   { name: "Productividad", icon: <Coffee className="h-5 w-5" /> }
 ];
